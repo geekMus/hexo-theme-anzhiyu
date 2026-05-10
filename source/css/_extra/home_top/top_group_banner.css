@@ -28,7 +28,6 @@
   display: flex;
   cursor: pointer;
   pointer-events: all;
-  border: 1px solid #e3e8f7;
 }
 
 .topGroup .todayCard .todayCard-info {
@@ -75,12 +74,9 @@
 }
 
 .topGroup .banner-button {
-  background: #ffffffe6;
-  border: 1px solid #e3e8f7;
-  /* background: var(--anzhiyu-white-op); */
+  background: var(--anzhiyu-white-op);
   border-radius: 20px;
-  color: #242525;
-  /* color: var(--anzhiyu-white); */
+  color: var(--anzhiyu-white);
   display: flex;
   align-items: center;
   z-index: 1;
@@ -110,7 +106,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  /* box-shadow: 0 -109px 133px -9px #000000 inset; */
+  box-shadow: 0 -109px 133px -9px #000000 inset;
 }
 
 .topGroup .todayCard.hide {
